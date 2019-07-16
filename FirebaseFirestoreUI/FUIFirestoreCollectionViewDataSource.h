@@ -73,7 +73,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Initialize an instance of FUIFirestoreCollectionViewDataSource that populates
  * UICollectionViewCells with FIRDataSnapshots.
- * @param collection A FUICollection that the data source uses to pull snapshots
+ * @param collection A FUIBatchedArray that the data source uses to pull snapshots
  *   from Cloud Firestore.
  * @param populateCell A closure used by the data source to create the cells that
  *   are displayed in the collection view. This closure is retained by the data
